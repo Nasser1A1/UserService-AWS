@@ -1,4 +1,3 @@
-"# UserService-AWS" 
 <img width="1565" height="761" alt="image" src="https://github.com/user-attachments/assets/55678f9d-71fc-4df9-8741-29913b4969f5" />
 # 🧑‍💼 User Service (FastAPI + AWS Cognito)
 
