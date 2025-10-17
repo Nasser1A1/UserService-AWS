@@ -1,0 +1,119 @@
+# ----------------------------------------
+# Python
+# ----------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.pyo
+*.pkl
+*.db
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# ----------------------------------------
+# FastAPI / Uvicorn
+# ----------------------------------------
+# Logs
+logs/
+*.log
+
+# Temp and runtime files
+*.pid
+*.seed
+*.lock
+
+# Cache and compiled code
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+instance/
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Uvicorn reload artifacts
+*.reload
+
+# ----------------------------------------
+# IDEs and Editors
+# ----------------------------------------
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ----------------------------------------
+# OS and environment files
+# ----------------------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------------------
+# Environment and secrets
+# ----------------------------------------
+.env
+.env.*
+*.env
+*.key
+*.pem
+secrets.json
+
+# ----------------------------------------
+# Docker and build artifacts
+# ----------------------------------------
+# Docker
+*.tar
+*.img
+*.bak
+docker-compose.override.yml
+docker-compose.local.yml
+
+# Build directories
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ----------------------------------------
+# Migrations / Alembic (optional)
+# Uncomment if you auto-generate migrations
+#migrations/versions/*.py
+#migrations/__pycache__/
+
+# ----------------------------------------
+# Node modules (if frontend included)
+# ----------------------------------------
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ----------------------------------------
+# Test artifacts
+# ----------------------------------------
+.tox/
+.coverage
+nosetests.xml
+test.db
+pytest-debug.log
+
+# ----------------------------------------
+# AWS / Cloud
+# ----------------------------------------
+.aws/
+.aws-sam/
+.terraform/
